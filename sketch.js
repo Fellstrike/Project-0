@@ -18,7 +18,7 @@ function draw()
 
   noStroke();
   noFill();
-  drawShape(xPos - 30, yPos + 50, color(red - 50, green - 30, blue - 60), size - 40);
+  drawShape(xPos, yPos + 25, color(120, 120, 120), size - 5);
   stroke(155);
   while (size >= 0)
   {
